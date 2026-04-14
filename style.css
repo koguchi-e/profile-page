@@ -4,6 +4,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  height: 100vh;
 }
 
 .card {
@@ -65,9 +66,10 @@ body {
 
 .text-links li {
   list-style: none;
-  font-size: 13px;
   position: relative;
   padding-left: 20px;
+  color: gray;
+  font-size: 10px;
 }
 
 .text-links li::before {
