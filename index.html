@@ -3,138 +3,140 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Eliのプロフィール</title>
+    <meta
+      name="description"
+      content="Eli（えり）のプロフィールと制作物、外部リンクです。"
+    />
+    <title>Eli. | Profile</title>
     <link rel="stylesheet" href="style.css" />
     <link rel="icon" type="image/png" sizes="32x32" href="./img/icon.png" />
     <link rel="icon" type="image/png" sizes="192x192" href="./img/icon.png" />
     <link rel="apple-touch-icon" href="./img/icon.png" />
   </head>
   <body>
-    <div class="card">
-      <img src="./img/icon.png" alt="アイコン" class="avatar" />
-
-      <h1>Eli</h1>
-
-      <div class="links">
-        <a href="https://x.com/___Eliri">X (Twitter)</a>
-        <a href="https://github.com/koguchi-e">GitHub</a>
-      </div>
-
-      <div class="main-contents">
-        <h2 class="contets-title">🙋私について</h2>
-        <ul class="bio">
-          <li>
-            2024年11月 〜 2025年4月：<span class="text-links"
-              ><a href="https://web-camp.io/commit/parttime/" target="_blank"
-                >DMM WEBCAMP 就業両立コース</a
-              ></span
-            >
-            にて学習。
-          </li>
-          <li>
-            2025年4月 〜 2026年9月：<span class="text-links"
-              ><a href="https://bootcamp.fjord.jp/" target="_blank"
-                >フィヨルドブートキャンプ</a
-              ></span
-            >
-            にて学習
-          </li>
-        </ul>
-        <p class="bio">
-          基本情報技術者試験の取得をきっかけに、Webエンジニアへの転職を目指しています。
-        </p>
-        <p class="bio">
-          科目Bのオブジェクト指向が面白かったので、Rubyを使ったエンジニアになりたいと考えています。
-        </p>
-        <p class="bio">
-          現職は、医療関係の学術集会に関する部署に勤めていて<br />
-          Perl・HTML・CSSを用いた運用保守や、問い合わせ対応などを行っています。
-        </p>
-        <p class="bio">
-          アイコンはプログラミングのエラーに苦しむハムスターです。<br />
-          下書きを自分で書いて、AIで清書して手直ししました。
-        </p>
-
-        <details>
-          <summary><span class="summary-label">取得した資格</span></summary>
-          <div class="bio">
-            <ul>
-              <li>RubySilver</li>
-              <li>基本情報技術者試験</li>
-              <li>IT パスポート</li>
-              <li>秘書検定 2 級</li>
-              <li>ファイナンシャルプランニング技能士 3 級</li>
-            </ul>
+    <main class="profile-page">
+      <article class="profile-card">
+        <header class="profile-header">
+          <p class="eyebrow">Profile</p>
+          <div class="identity">
+            <img
+              src="./img/icon.png"
+              alt="エラーに苦しむハムスターのアイコン"
+              class="avatar"
+            />
+            <h1>Eli（えり）</h1>
           </div>
-        </details>
+        </header>
 
-        <details>
-          <summary>
-            <span class="summary-label">好きなもの・苦手なもの</span>
-          </summary>
+        <section class="section" aria-labelledby="about-heading">
+          <h2 id="about-heading">About Me</h2>
           <div class="bio">
-            <strong>🙆好きなもの</strong>
-            <ul>
-              <li>アニメ・漫画・本 全般</li>
-              <li>散歩</li>
-              <li>筋トレ</li>
-              <li>英語</li>
-              <li>哲学</li>
-              <li>心理学</li>
-              <li>ハムスター（特にキンクマ）</li>
-              <li>ピカチュウ</li>
-              <li>ポムポムプリン</li>
-            </ul>
-            <strong>🙅苦手なもの</strong>
-            <ul>
-              <li>低気圧</li>
-              <li>真夏（熱中症になりやすい）</li>
-              <li>夜更かし</li>
-              <li>人の多いところ</li>
-              <li>辛いもの</li>
-            </ul>
+            <section class="about-group" aria-labelledby="career-heading">
+              <h3 id="career-heading">経歴</h3>
+              <p>
+                現在は医療関係の学術集会向けWebシステムの運用・保守に携わり、Perl・HTML・CSSを用いた登録画面の修正や、問い合わせ対応などを行っています。
+              </p>
+              <p>
+                2024年8月に基本情報技術者試験を取得したことをきっかけに、オブジェクト指向に興味を持ち、Rubyを学び始めました。
+              </p>
+              <p>
+                Ruby / Ruby on
+                Railsを中心にWebアプリケーション開発を学び、現在も個人開発や技術学習に取り組んでいます。
+              </p>
+              <ul>
+                <li>2024年11月〜2025年4月：DMM WEBCAMPで学習</li>
+                <li>2025年4月〜2026年9月：フィヨルドブートキャンプで学習</li>
+              </ul>
+            </section>
+            <section class="about-group" aria-labelledby="interests-heading">
+              <h3 id="interests-heading">自分について</h3>
+              <p>
+                新しいことを学び、できることを増やすことや、学ぶ意欲のある人たちと協力することが好きです。
+                より良いチームづくりにも関心があります。
+              </p>
+              <p>
+                趣味は読書、アニメ・漫画、散歩、筋トレなど。
+                英語、心理学、哲学にも興味があります。<br />
+                ハムスターとピカチュウが好きです。
+              </p>
+            </section>
           </div>
-        </details>
+        </section>
 
-        <h2 class="contets-title">🔗リンク</h2>
-        <ul class="text-links">
-          <li>
-            <a href="https://renovoapp.net/" target="_blank">ReNovo</a><br />
-            考えすぎて動けなくなったときに、状況を整理して次の行動を作るタスク作成アプリを開発しました。
-            入力した内容からAIがタスクを生成してくれます。<br />
-            <p style="margin: 0.5em 0 0.5em 0">
-              <a href="https://github.com/koguchi-e/ReNovo" target="_blank"
-                >GitHub</a
-              >
-              /
-              <a
-                href="https://eliri.hatenablog.com/entry/2026/09/17/080344"
-                target="_blank"
-                >リリースブログ</a
-              >
-            </p>
-          </li>
-          <li>
-            <a href="https://eliri.hatenablog.com/" target="_blank"
-              >はてなブログ</a
-            ><br />
-            毎月の学習の振り返りを書いています。
-          </li>
-          <li>
-            <a href="https://zenn.dev/eliri" target="_blank">Zenn</a><br />
-            DMMWEBCAMPで学習していた2025/01/16 ～
-            2025/04/18まで毎日学んだことを書いてました。
-          </li>
-          <li>
-            <a
-              href="https://x.com/search?q=%23DWC%E5%B0%B1%E6%A5%AD%E4%B8%A1%E7%AB%8B2411&src=hashtag_click"
-              target="_blank"
-              >#DWC就業両立2411</a
-            ><br />
-            DMM WEBCAMPで学習時、Xで毎日上記タグで学習記録を投稿してました。
-          </li>
-        </ul>
-      </div>
-    </div>
+        <section class="section" aria-labelledby="works-heading">
+          <h2 id="works-heading">Works</h2>
+          <nav aria-label="制作物">
+            <ul class="link-list">
+              <li>
+                <a
+                  href="https://github.com/koguchi-e/ReNovo"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >ReNovo <span aria-hidden="true">↗</span></a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://github.com/koguchi-e/timecalc"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >TimeCalc <span aria-hidden="true">↗</span></a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://github.com/koguchi-e/Taskun"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >Taskun <span aria-hidden="true">↗</span></a
+                >
+              </li>
+            </ul>
+          </nav>
+        </section>
+
+        <section class="section" aria-labelledby="links-heading">
+          <h2 id="links-heading">Links</h2>
+          <nav aria-label="外部リンク">
+            <ul class="link-list">
+              <li>
+                <a
+                  href="https://github.com/koguchi-e"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >GitHub <span aria-hidden="true">↗</span></a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://zenn.dev/eliri"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >Zenn <span aria-hidden="true">↗</span></a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://eliri.hatenablog.com/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >Blog <span aria-hidden="true">↗</span></a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://x.com/___eliri"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >X <span aria-hidden="true">↗</span></a
+                >
+              </li>
+            </ul>
+          </nav>
+        </section>
+
+        <footer>© Eli</footer>
+      </article>
+    </main>
   </body>
 </html>
